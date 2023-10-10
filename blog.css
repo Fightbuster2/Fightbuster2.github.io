@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 1px;
+    background: linear-gradient(144deg, rgba(2,0,32,1) 0%, rgba(90,84,126,1) 100%);
+}
+@import url('https://fonts.googleapis.com/css?family=Muli');
+body {
+    font-family: Arial;
+    font-family: 'Muli', sans-serif;
+}
+.nav-wrapper {
+    color: white;
+    font-family: "DM Sans";
+    padding: 15px 20px 0px 0px;
+    font-size: 18px;
+}
+.sl-nav {
+    display: inline;
+}
+.sl-nav ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+.sl-nav li {
+    cursor: pointer;
+    padding-bottom:10px;
+}
+.sl-nav li ul {
+    display: none;
+}
+.sl-nav li:hover ul {
+    position: absolute;
+    top:29px;
+    right:-15px;
+    display: block;
+    background: #fff;
+    width: 120px;
+    padding-top: 0px;
+    z-index: 1;
+    border-radius:5px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+.sl-nav li:hover .triangle {
+    position: absolute;
+    top: 15px;
+    right: -10px;
+    z-index:10;
+    height: 14px;
+    overflow:hidden;
+    width: 30px;
+    background: transparent;
+}
+.sl-nav li:hover .triangle:after {
+    content: '';
+    display: block;
+    z-index: 20;
+    width: 15px;
+    transform: rotate(45deg) translateY(0px) translatex(10px);
+    height: 15px;
+    background: #fff;
+    border-radius:2px 0px 0px 0px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+.sl-nav li ul li {
+    position: relative;
+    text-align: left;
+    background: transparent;
+    padding: 15px 15px;
+    padding-bottom:0;
+    z-index: 2;
+    font-size: 16px;
+    color: #3c3c3c;
+}
+.sl-nav li ul li:last-of-type {
+    padding-bottom: 15px;
+}
+.sl-nav li ul li span {
+    padding-left: 5px;
+}
+.sl-nav li ul li span:hover, .sl-nav li ul li span.active {
+    color: #020020;
+}
+#header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 0px 10px 142px;
+    list-style-type: none;
+}
+
+#header2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+}
+#name{
+    padding: 0px 0px 0px 0px;
+}
+#home{
+    padding: 30px 90px 0px 0px;
+}
+#projects{
+    padding: 0px 90px 0px 90px;
+}
+#blog{
+    padding: 0px 90px 0px 0px;
+}
+#contact{
+    padding: 0px 90px 0px 0px;
+}
+#language{
+    padding: 0px 90px 0px 0px;
+}
+.h-title{
+    margin-right: auto;
+    font-size: 50px;
+    font-family: "DM Sans";
+    font-weight: bold;
+}
+
+.h-items{
+    list-style-type: none;
+    color: #FFF;
+    font-size: 20px;
+    font-family: "DM Sans";
+    margin: 1%;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}

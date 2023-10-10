@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 1px;
+    background: linear-gradient(144deg, rgba(2,0,32,1) 0%, rgba(90,84,126,1) 100%);
+}
+@import url('https://fonts.googleapis.com/css?family=Muli');
+body {
+    font-family: Arial;
+    font-family: 'Muli', sans-serif;
+}
+.nav-wrapper {
+    color: white;
+    font-family: "DM Sans";
+    padding: 15px 20px 0px 0px;
+    font-size: 18px;
+}
+.sl-nav {
+    display: inline;
+}
+.sl-nav ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+.sl-nav li {
+    cursor: pointer;
+    padding-bottom:10px;
+}
+.sl-nav li ul {
+    display: none;
+}
+.sl-nav li:hover ul {
+    position: absolute;
+    top:29px;
+    right:-15px;
+    display: block;
+    background: #fff;
+    width: 120px;
+    padding-top: 0px;
+    z-index: 1;
+    border-radius:5px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+.sl-nav li:hover .triangle {
+    position: absolute;
+    top: 15px;
+    right: -10px;
+    z-index:10;
+    height: 14px;
+    overflow:hidden;
+    width: 30px;
+    background: transparent;
+}
+.sl-nav li:hover .triangle:after {
+    content: '';
+    display: block;
+    z-index: 20;
+    width: 15px;
+    transform: rotate(45deg) translateY(0px) translatex(10px);
+    height: 15px;
+    background: #fff;
+    border-radius:2px 0px 0px 0px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+.sl-nav li ul li {
+    position: relative;
+    text-align: left;
+    background: transparent;
+    padding: 15px 15px;
+    padding-bottom:0;
+    z-index: 2;
+    font-size: 16px;
+    color: #3c3c3c;
+}
+.sl-nav li ul li:last-of-type {
+    padding-bottom: 15px;
+}
+.sl-nav li ul li span {
+    padding-left: 5px;
+}
+.sl-nav li ul li span:hover, .sl-nav li ul li span.active {
+    color: #020020;
+}
+#header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 0px 10px 142px;
+    list-style-type: none;
+}
+
+#header2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+}
+#name{
+    padding: 0px 0px 0px 0px;
+}
+#home{
+    padding: 30px 90px 0px 0px;
+}
+#projects{
+    padding: 0px 90px 0px 90px;
+}
+#blog{
+    padding: 0px 90px 0px 0px;
+}
+#contact{
+    padding: 0px 90px 0px 0px;
+}
+#language{
+    padding: 0px 90px 0px 0px;
+}
+.h-title{
+    margin-right: auto;
+    font-size: 50px;
+    font-family: "DM Sans";
+    font-weight: bold;
+}
+
+.h-items{
+    list-style-type: none;
+    color: #FFF;
+    font-size: 20px;
+    font-family: "DM Sans";
+    margin: 1%;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.intro{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 0px 0px 0px;
+    font-family: "DM Sans";
+    font-size: 25px;
+}
+
+.intro2{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 20px;
+}
+.name{
+    background: -webkit-linear-gradient(144deg, rgba(219,0,222,1) 0%, rgba(62,3,188,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 0px 0px;
+}
+
+.button-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.button_projects {
+    cursor: pointer;
+    height: 60px;
+    width: 250px;
+    font-size: 20px;
+    margin-right: 20px;
+    color: #FFFFFF;
+    border: transparent;
+    background: linear-gradient(90deg, rgb(219, 0, 222) 0%, rgba(62,3,188,1) 100%);
+}
+
+
+.button_contact {
+    cursor: pointer;
+    height: 60px;
+    width: 250px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 3px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.icons{
+    color: #FFFFFF;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+#insta{
+    padding: 0px 5px 0px 0px;
+}
+#twitter{
+    padding: 0px 5px 0px 5px;
+}
+#linkedin{
+    padding: 0px 5px 0px 5px;
+}
+#facebook{
+    padding: 0px 0px 0px 5px;
+}
+
+.web-app{
+    height: 428px;
+    width: 428px;
+}
+.container-boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.container-boxes > .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid white;
+    height: 350px;
+    width: 350px;
+    border-radius: 45px;
+    margin: 20px;
+}
+
+.icon-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-weight: bold;
+    height: 300px;
+    width: 300px;
+}
+
+.icon-design img {
+    margin-bottom: 15px;
+}
