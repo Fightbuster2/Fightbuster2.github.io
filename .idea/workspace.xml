@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f03edc46-9c32-4186-bec9-55fd1a8a098a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2VZZSk1XIrnt44EwF13IpoHUAlm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/School/GitHub/Periode 5/Fightbuster2.github.io",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="indexNL.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Sintlucas website/indexNL.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.indexNL.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f03edc46-9c32-4186-bec9-55fd1a8a098a" name="Changes" comment="" />
+      <created>1695045565019</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695045565019</updated>
+      <workItem from="1695045566045" duration="3180000" />
+      <workItem from="1695109654602" duration="27621000" />
+      <workItem from="1695228347140" duration="2903000" />
+      <workItem from="1695627409669" duration="9000" />
+      <workItem from="1695627443123" duration="38000" />
+      <workItem from="1695629042122" duration="56000" />
+      <workItem from="1695629905049" duration="887000" />
+      <workItem from="1695728378148" duration="3913000" />
+      <workItem from="1695739109430" duration="4906000" />
+      <workItem from="1696255537207" duration="597000" />
+      <workItem from="1696333388099" duration="11757000" />
+      <workItem from="1696840936007" duration="2369000" />
+      <workItem from="1696851297589" duration="595000" />
+      <workItem from="1696938007672" duration="2753000" />
+      <workItem from="1696946395967" duration="937000" />
+      <workItem from="1696951705896" duration="897000" />
+      <workItem from="1697013241338" duration="7505000" />
+      <workItem from="1697393386804" duration="205000" />
+      <workItem from="1698060313830" duration="8000" />
+      <workItem from="1698341027600" duration="70000" />
+      <workItem from="1698430606603" duration="5237000" />
+      <workItem from="1698655333617" duration="1703000" />
+      <workItem from="1698657824456" duration="243000" />
+      <workItem from="1698662094711" duration="2488000" />
+      <workItem from="1698670806512" duration="7547000" />
+      <workItem from="1698747493424" duration="4590000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
