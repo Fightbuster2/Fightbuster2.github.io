@@ -159,100 +159,93 @@ a{
     text-decoration: none;
     color: #FFFFFF;
 }
-#blog-name{
-    color: white;
-    font-family: "DM Sans";
-    font-size: 15px;
-    padding: 50px 0px 0px 145px;
-}
 
-.container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
-}
-
-.box {
-    color: white;
-    width: 500px; /* Adjust the width of the box */
-    height: 250px; /* Adjust the height of the box */
-    margin-right: 200px;
-    border: 2px solid white; /* Border around the box */
-}
-#blog-text{
+.intro{
+    color: #FFFFFF;
     display: flex;
     justify-content: center;
     text-align: center;
-    padding:30px 10px 0px 10px;
+    padding: 120px 0px 0px 0px;
+    font-family: "DM Sans";
+    font-size: 25px;
 }
 
-.circle {
-    width: 250px; /* Adjust the width of the circle */
-    height: 250px; /* Make the circle's height match the box's height */
-    border-radius: 50%; /* Create a circle */
-    border: 2px solid white; /* Border around the circle */
-}
-
-#profile-picture{
-    
-    border-radius: 100%;
-}
-
-.container-skill {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 450px; /* Adjust the padding to move it down */
-}
-
-.skill{
-    color: #ffffff;
-}
-.underline-skill{
-    height: 5px;
-    width: 85px;
-    background-color: #ffffff;
-}
-
-.container-boxes {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-    margin-top: 20px;
+.intro2{
     color: #FFFFFF;
-}
-
-.container-boxes > .box {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border: 7px solid white;
-    height: 350px;
-    width: 350px;
-    border-radius: 45px;
-    margin: 20px;
-}
-
-.icon-design {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     font-family: "DM Sans";
     font-size: 20px;
-    font-weight: bold;
-    height: 300px;
-    width: 300px;
+}
+.name{
+    background: -webkit-linear-gradient(144deg, rgba(219,0,222,1) 0%, rgba(62,3,188,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 40px;
 }
 
-.icon-design img {
-    margin-bottom: 15px;
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px 0px 0px;
+}
+
+.button-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.button_projects {
+    cursor: pointer;
+    height: 60px;
+    width: 250px;
+    font-size: 20px;
+    margin-right: 20px;
+    color: #FFFFFF;
+    border: transparent;
+    background: linear-gradient(90deg, rgb(219, 0, 222) 0%, rgba(62,3,188,1) 100%);
+}
+
+
+.button_contact {
+    cursor: pointer;
+    height: 60px;
+    width: 250px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 3px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.icons{
+    color: #FFFFFF;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+#insta{
+    padding: 0px 5px 0px 0px;
+}
+#twitter{
+    padding: 0px 5px 0px 5px;
+}
+#linkedin{
+    padding: 0px 5px 0px 5px;
+}
+#facebook{
+    padding: 0px 0px 0px 5px;
+}
+
+.web-app{
+    height: 428px;
+    width: 428px;
 }
 .underline-navbar {
     position: absolute;
@@ -262,11 +255,3 @@ a{
     width: 100%;
     background-color: #ffffff;
 }
-
-
-
-
-
-
-
-

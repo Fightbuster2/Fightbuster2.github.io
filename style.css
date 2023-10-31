@@ -11,11 +11,18 @@ body {
     font-family: Arial;
     font-family: 'Muli', sans-serif;
 }
+.nav-item {
+    display: inline-block;
+    position: relative;
+}
 .nav-wrapper {
     color: white;
     font-family: "DM Sans";
     padding: 15px 20px 0px 0px;
     font-size: 18px;
+}
+ul.language-dropdown {
+    color: gray;
 }
 .sl-nav {
     display: inline;
@@ -72,11 +79,27 @@ body {
     text-align: left;
     background: transparent;
     padding: 15px 15px;
-    padding-bottom:0;
+    padding-bottom: 0;
     z-index: 2;
     font-size: 16px;
-    color: #3c3c3c;
+    color: black; /* Set the text color to black */
 }
+
+.sl-nav li ul li a {
+    text-decoration: none; /* Remove the underline */
+    display: block;
+    padding: 5px;
+    color: black; /* Set the text color to black */
+}
+
+.sl-nav li ul li a:hover {
+    background-color: #ddd; /* Change the background color on hover */
+}
+
+.sl-nav li ul li:last-of-type {
+    padding-bottom: 15px;
+}
+
 .sl-nav li ul li:last-of-type {
     padding-bottom: 15px;
 }
@@ -142,7 +165,7 @@ a{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 80px 0px 0px 0px;
+    padding: 120px 0px 0px 0px;
     font-family: "DM Sans";
     font-size: 25px;
 }
@@ -170,7 +193,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 0px 0px 0px;
+    padding: 15px 0px 0px 0px;
 }
 
 .button-container {
@@ -224,38 +247,12 @@ a{
     height: 428px;
     width: 428px;
 }
-.container-boxes {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-    color: #FFFFFF;
+.underline-navbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #ffffff;
 }
 
-.container-boxes > .box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 7px solid white;
-    height: 350px;
-    width: 350px;
-    border-radius: 45px;
-    margin: 20px;
-}
-
-.icon-design {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "DM Sans";
-    font-size: 20px;
-    font-weight: bold;
-    height: 300px;
-    width: 300px;
-}
-
-.icon-design img {
-    margin-bottom: 15px;
-}
