@@ -179,20 +179,26 @@ a{
     justify-content: center;
     align-items: flex-start;
 }
+.container-images3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
 
-.container-pong, .container-threadwear, .container-webshop {
+.container-pong, .container-threadwear, .container-webshop, .container-platform-game, .container-energyManager{
     padding: 20px;
     width: calc(50% - 40px); /* To make them 50% width and leave space between them */
     text-align: center;
 }
 
-#pong, #threadwear, #webshop {
+#pong, #threadwear, #webshop, #platform-game, #energyManager{
     cursor: pointer;
     max-width: 100%;
 }
 
 #model-pong,
-#model-threadwear, #modal-webshop {
+#model-threadwear, #modal-webshop, #modal-platform-game, #modal-energyManager {
     padding: 40px 20px 0px 0px;
     height: 350px;
     width: 640px;
@@ -250,18 +256,42 @@ a{
     z-index: 1000;
     top: 17vh;
 }
+#modal4{
+    background: #FFFFFF;
+    position: fixed;
+    color: #333;
+    padding-right: 0px;
+    text-align: center;
+    width: 66vw;
+    height: 66vh;
+    left: 16.5vw;
+    z-index: 1000;
+    top: 17vh;
+}
+#modal5{
+    background: #FFFFFF;
+    position: fixed;
+    color: #333;
+    padding-right: 0px;
+    text-align: center;
+    width: 66vw;
+    height: 66vh;
+    left: 16.5vw;
+    z-index: 1000;
+    top: 17vh;
+}
 
-#pong-header, #threadwear-header, #webshop-header{
+#pong-header, #threadwear-header, #webshop-header, #platform-game-header, #energyManager-header{
     color: black;
     font-family: "DM Sans";
     font-weight: bold;
     font-size: 30px;
     padding-top: 20px;
 }
-.pong-text, .threadwear-text, .webshop-text{
+.pong-text, .threadwear-text, .webshop-text, .platform-game-text, .energyManager-text{
     color: black;
     font-size: 20px;
-    padding: 50px 10px 0px 10px;
+    padding-top: 50px;
 }
 .underline-navbar {
     position: absolute;
